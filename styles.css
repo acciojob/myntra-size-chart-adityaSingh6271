@@ -1,2 +1,20 @@
+.Chart {
+  border-collapse: collapse;
+  width: 600px;
+  margin: 20px;
+}
 
-/* Your CSS Code here. */
+.Chart th,
+.Chart td {
+  border: 1px solid black;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+#left {
+  text-align: left;
+}
+
+/* Apply text alignment to specific columns containing sizes */
+.Chart .right-align {
+  text-align: right;
+}
